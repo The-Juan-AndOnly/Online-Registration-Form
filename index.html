@@ -86,7 +86,7 @@
           </div>
           <div class="form-input">
             <label for="state">State</label>
-            <select id="state">
+            <select id="state" name="state">
               <option value="" disabled selected hidden>Choose State</option>
               <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
@@ -155,18 +155,24 @@
               Select the newsletters you would like to receive
             </p>
             <div class="newsletter-input__item">
-              <input type="checkbox" name="news" id="news" value="html" /><label
-                for="news"
-                >HTML News</label
-              >
+              <input
+                type="checkbox"
+                name="news"
+                id="htmlNews"
+                value="html"
+              /><label for="htmlNews">HTML News</label>
             </div>
             <div class="newsletter-input__item">
-              <input type="checkbox" name="news" value="css" /><label for="news"
-                >CSS News</label
-              >
+              <input
+                type="checkbox"
+                name="news"
+                id="cssNews"
+                value="css"
+              /><label for="cssNews">CSS News</label>
             </div>
             <div class="newsletter-input__item">
-              <input type="checkbox" name="news" value="js" /><label for="news"
+              <input type="checkbox" name="news" id="jsNews" value="js" /><label
+                for="jsNews"
                 >JavaScript News</label
               >
             </div>
